@@ -4,123 +4,164 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Betelhem Sefiw | Portfolio</title>
+    <!--lab 5 favcon-->
+    <link rel="icon" type="image/png" href="images/project-favcon.png">
 </head>
+
 <body>
     <!-- Section 1: Header -->
-    <h1>Betelhem Sefiw</h1>
-    <p>Software Engineering student and aspiring web developer.</p>
-    <p>
-        <a href="#about">About</a> | 
-        <a href="#skills">Skills</a> | 
-        <a href="#projects">Projects</a> | 
-        <a href="#education">Education</a> | 
-        <a href="#contact">Contact</a> | 
-        <a href="projects.html">All Projects</a>
-    </p>
-    <hr>
+    <header>
+        <h1>Betelhem Sefiw</h1>
+        <img src="images/project-profile.jpg" alt="Portrait of Betelhem Sefiw smiling" title="Betelhem Sefiw" width="200" height="330">
+        <p>Software Engineering student and aspiring web developer.</p>
+        <nav>
+            <a href="#about">About</a> | 
+            <a href="#skills">Skills</a> | 
+            <a href="#projects">Projects</a> | 
+            <a href="#education">Education</a> | 
+            <a href="#contact">Contact</a> | 
+            <a href="projects.html">All Projects</a>
+        </nav>
+    </header>
     <hr>
 
     <!-- Section 2: About Me -->
-     <h2 id="about">About Me</h2>
-    
-     <p>I am a 3<sup>rd</sup> year <strong>Software Engineering</strong> student.
-    I <em>really</em> enjoy building websites and solving complex problems, and my current focus is on 
-    <mark>front-end development</mark>,<br> with the goal to later become a full-stack developer.</p>
-    
-    <p>Languages I have used: <b>Python</b>, <b>C++</b> and <i>a little</i> JavaScript.</p>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a 3<sup>rd</sup> year <strong>Software Engineering</strong> student.
+        I <em>really</em> enjoy building websites and solving complex problems, and my current focus is on 
+        <mark>front-end development</mark>,<br> with the goal to later become a full-stack developer.</p>
+        
+        <p>Languages I have used: <b>Python</b>, <b>C++</b> and <i>a little</i> JavaScript.</p>
 
-    <p>
-        I have taken part in leadership programs and training, which have strengthened my communication, teamwork, and problem-solving abilities.
-    </p>
-    
-    <p>
-        I believe software engineering is fundamentally about solving problems, with coding as the means by which solutions are realized.<br>
-        As a young technologist, I am committed to continuously developing my skills and contributing to innovation and digital transformation in Ethiopia and beyond.
-    <p><b>Fun fact:</b>  I am fascinated by how front-end code translates into visual experiences, which is why I spend my free time exploring UI design and AWS cloud architecture.</p>
+        <p>I have taken part in leadership programs and training, which have strengthened my communication, teamwork, and problem-solving abilities.</p>
+        
+        <p>I believe software engineering is fundamentally about solving problems, with coding as the means by which solutions are realized.<br>
+        As a young technologist, I am committed to continuously developing my skills and contributing to innovation and digital transformation in Ethiopia and beyond.</p>
+        
+        <p><b>Fun fact:</b> I am fascinated by how front-end code translates into visual experiences, which is why I spend my free time exploring UI design and AWS cloud architecture.</p>
+    </section>
     <hr>
 
-    <!-- Section 3: What Inspires Me (New for Lab 3) -->
-    <h2>What Inspires Me</h2>
-    <blockquote>
-        “You have a row of dominoes set up, you knock over the first one, and what will happen to the last one is the certainty that it will go over very quickly.” — Dwight D. Eisenhower
-    </blockquote>
-    <p>James Clear always says <q>Every action you take is a vote for the type of person you wish to become</q></p>
-    <p>Book I am reading: <cite>Atomic Habits</cite> by James Clear.</p>
+    <!-- Section 3: What Inspires Me -->
+    <section>
+        <h2>What Inspires Me</h2>
+        <blockquote>
+            “You have a row of dominoes set up, you knock over the first one, and what will happen to the last one is the certainty that it will go over very quickly.” — Dwight D. Eisenhower
+        </blockquote>
+        <p>James Clear always says <q>Every action you take is a vote for the type of person you wish to become</q></p>
+        <p>Book I am reading: <cite>Atomic Habits</cite> by James Clear.</p>
+    </section>
     <hr>
 
     <!-- Section 4: Skills -->
-    <h2 id="skills">Skills</h2>
-    <p>
-        <strong>Programming Languages:</strong><br>
-        Python, C++, Java, JavaScript (learning)<br><br>
-        
-        <strong>Web Development:</strong><br>
-        HTML, CSS (learning), Responsive Design<br><br>
-        
-        <strong>Tools & Technologies:</strong><br>
-        VS Code, Git & GitHub, AWS (learning)<br><br>
-        
-        <strong>Soft Skills:</strong><br>
-        Teamwork, Communication, Problem Solving, Leadership
-    </p>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages
+                <ul>
+                    <li>Python</li>
+                    <li>C++</li>
+                    <li>Java</li>
+                </ul>
+            </li>
+            <li>Web Development
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS (learning)</li>
+                    <li>JavaScript (next)</li>
+                </ul>
+            </li>
+            <li>Soft Skills
+                <ul>
+                    <li>Teamwork</li>
+                    <li>Presenting</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <!-- LEARNING ROADMAP SECTION -->
+    <section id="roadmap">
+        <h2>My Learning Roadmap</h2>
+        <ol>
+            <li>HTML structure and content</li>
+            <li>CSS layout and design</li>
+            <li>JavaScript and the DOM</li>
+            <li>PHP and databases</li>
+            <li>Deploy my portfolio online</li>
+        </ol>
+    </section>
+
+    <!-- TOOLS SECTION -->
+    <section id="tools">
+        <h2>Tools I Use</h2>
+        <ul>
+            <li>VS Code</li>
+            <li>Git & GitHub</li>
+            <li>Ubuntu</li>
+        </ul>
+    </section>
     <hr>
 
     <!-- Section 5: Projects -->
-    <h2 id="projects">Projects</h2>
-    <h3>Weather Web App</h3>
-    <p>A dynamic web application that integrates with third-party weather APIs to fetch and display real-time weather data.</p>
-    
-    <h3>Personal Finance Tracker</h3>
-    <p>A comprehensive tool designed to help users track their daily expenses and income.</p>
-    
-    <h3>Club Connect</h3>
-    <p>A collaborative platform built for university students to discover and connect with various campus clubs. </p>
-    
-    <h3>Contact Book</h3>
-    <p>A secure digital address book that allows users to save, edit, and manage their contacts efficiently.</p>
-    
-    <h3>Student Management Web App</h3>
-    <p>A robust administrative application built to manage student records, track academic progress, and calculate grades. </p>
-    
-    <h3>Calculator</h3>
-    <p>A fully functional calculator application that performs basic arithmetic operations (addition, subtraction, multiplication, and division). </p>
-    
-    <p><a href="projects.html">See all my projects →</a></p>
+    <section id="projects">
+        <h2>Projects</h2>
+        
+        <h3>Student Management</h3>
+        <p>A robust administrative application built to manage student records, 
+        track academic progress, and calculate grades. 
+        <strong>This works in console or terminal.</strong></p>
+        <img src="images/project-student-management.png" alt="Screenshot of the student management terminal app" width="400" height="250">
 
-    <!-- Lab 3: My First Program -->
-    <h3>My First Program</h3>
-    <p>The first thing I wrote in Python was <code>user = input("enter your name")</code>. Later I wrote this:</p>
-    <pre><code>age = input("how old are you? ")
+        <h3>Weather Web App</h3>
+        <p>A dynamic web application that integrates with third-party weather APIs to fetch and display real-time weather data.</p>
+        <img src="images/project.weather.png" alt="Screenshot of the weather app" width="400" height="250">
+        
+        <h3>Contact Book</h3>
+        <p>A secure digital address book that allows users to save, edit, and manage their contacts efficiently.</p>
+        <img src="images/project-contactBook.png" alt="Screenshot of the contact book" width="400" height="250">
+        
+        <hr>
+
+        <!-- Lab 3: My First Program -->
+        <h3>My First Program</h3>
+        <p>The first thing I wrote in Python was <br><code>user = input("enter your name")</code>. Later I wrote this:</p>
+        <pre><code>age = input("how old are you? ")
 print(f"you are {age} years old")</code></pre>
 
-    <!-- Lab 3:  (C++ Snippet) -->
-    <p>Here is a simple C++ snippet I wrote:</p>
-    <pre><code>#include &lt;iostream&gt;
+        <p>Here is a simple C++ snippet I wrote for the first time:</p>
+        <pre><code>#include &lt;iostream&gt;
 using namespace std;
 int main() {
     cout &lt;&lt; "Hello World";
     return 0;
 }</code></pre>
+    </section>
     <hr>
 
     <!-- Section 6: Education -->
-    <h2 id="education">Education</h2>
-    <h3>BSc in Software Engineering</h3>
-    <p>Addis Ababa Science and Technology University, 2023 – present</p>
+    <section id="education">
+        <h2>Education</h2>
+        <h3>BSc in Software Engineering</h3>
+        <p>Addis Ababa Science and Technology University, 2023 – present</p>
+    </section>
     <hr>
 
     <!-- Section 7: Contact -->
-    <h2 id="contact">Contact</h2>
-    <p>I am always open to discussing new projects, creative ideas, or opportunities to be part of your visions. Feel free to reach out to me through the details below:</p>
-    <p>Address:<br>Addis Ababa,<br>Ethiopia</p>
-     <p>Email: <a href="mailto:betelhemsefiw28@gmail.com">betelhemsefiw28@example.com</a></p>
-    <p>Phone: <a href="tel:+251930908051">+251930908051</a></p>
-    
-    
-    <p>GitHub: <a href="https://github.com/Betelhem-Sefiw">github.com/Betelhem-Sefiw</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/betelhem-sefiw-b166363a7">linkedin.com/betelhem-sefiw-b166363a7</a></p>
-    
-    <!-- File download link -->
-    <p><a href="files/cv.pdf" download>Download my CV (PDF)</a></p>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>I am always open to discussing new projects, creative ideas, or opportunities to be part of your visions. Feel free to reach out to me through the details below:</p>
+        <p>Address:<br>Addis Ababa,<br>Ethiopia</p>
+        <p>Email: <a href="mailto:betelhemsefiw28@gmail.com">betelhemsefiw28@gmail.com</a></p>
+        <p>Phone: <a href="tel:+251930908051">+251930908051</a></p>
+        
+        <p>GitHub: <a href="https://github.com/Betelhem-Sefiw">github.com/Betelhem-Sefiw</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/betelhem-sefiw-b166363a7">linkedin.com/betelhem-sefiw-b166363a7</a></p>
+        
+        <!-- File download link -->
+        <p><a href="files/cv.pdf" download>Download my CV (PDF)</a></p>
+    </section>
+
 </body>
 </html>
