@@ -1,106 +1,186 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects | Betelhem Sefiw</title>
-    
+
     <!-- Part D: Favicon -->
     <link rel="icon" type="image/png" href="images/project-favcon.png">
 </head>
+
 <body>
+
     <p><a href="index.html">Back to Home</a></p>
-    
+
     <h1>My Projects</h1>
     <p>Details of every project I have built.</p>
-     <hr>
-    <h2>My Portfolio Projects</h2> 
-    
-    
+
+    <hr>
+
+    <h2>My Portfolio Projects</h2>
+
     <!-- Part B: Project Screenshots -->
-    <h3 id="student-management">Student Management</h3>
-     <p>A robust administrative application built to manage student records, track academic progress, and calculate grades. <br><strong>This works in console or terminal.</strong></p>
-    <img src="images/project-student-management.png" alt="student management terminal app" width="400" height="250">
-     <ul>
-    <li>Main features of this project:
-        <ol>
-            <li>Add student</li>
-            <li>View students</li>
-             <li>Update registered students data</li>
-            <li>Delete students</li>
-            <li>Save data</li>
-              <li>Exit</li>
-        </ol>
-    </li>
-    </ul> <!-- ✅ FIXED: Added closing ul here -->
+
+    <h3 id="personal-finance-management">Personal Finance Management</h3>
+
+    <p>
+        A console-based C++ application designed to help users manage
+        their personal finances by recording income and expenses,
+        tracking transactions, and monitoring their financial balance.
+        <br>
+        <strong>This application runs in the console or terminal.</strong>
+    </p>
+
+    <img src="images/project-personalFinanceManagment.png"
+         alt="Screenshot of the Personal Finance Management console application"
+         width="400"
+         height="250">
+
+    <ul>
+        <li>Main features of this project:
+            <ol>
+                <li>Add income and expense transactions</li>
+                <li>View all recorded transactions</li>
+                <li>View financial summary (total income, expenses, and balance)</li>
+                <li>Delete transactions</li>
+                <li>Search transactions by category</li>
+                <li>Save transaction records using file handling</li>
+                <li>Exit the application</li>
+            </ol>
+        </li>
+    </ul>
 
     <h3 id="contact-book">Contact Book</h3>
-    <p>A secure digital address book that allows users to save, edit, and manage their contacts efficiently.</p>
-    <img src="images/project-contactBook.png" alt="Screenshot of the contact book" width="400" height="250">
+
+    <p>
+        A console-based C++ contact management application that allows
+        users to store, search, update, and delete contact information
+        such as names, phone numbers, email addresses, and physical addresses.
+        <br>
+        <strong>This application runs in the console or terminal.</strong>
+    </p>
+
+    <img src="images/project-contactBook.png"
+         alt="Screenshot of the Contact Book console application"
+         width="400"
+         height="250">
+
     <ul>
-    <li>Main features of this project:
+        <li>Main features of this project:
             <ol>
-            <li>Users save individual data including name, phone, email, address</li>
-            <li>Provides a simple way of search and find mechanism</li>
-        <li>Save, update, delete contacts</li>
-        </ol>
-    </li>
-</ul>
+                <li>Add new contacts with names, phone numbers, emails, and addresses</li>
+                <li>Display all saved contacts</li>
+                <li>Search contacts by name</li>
+                <li>Update existing contact information</li>
+                <li>Delete contacts</li>
+                <li>Save contact records using file handling</li>
+            </ol>
+        </li>
+    </ul>
+
     <hr>
-    
+
     <!-- Part C: Connect with me Image Map -->
+
     <h2>Connect with me</h2>
-    <!-- Notice I changed the image to .png to match the lab instructions -->
-    <img src="images/connect-banner.jpg" usemap="#connectmap" alt="Connect banner: GitHub, LinkedIn, Email" width="600" height="200">
-    
-        <map name="connectmap">
+
+    <img src="images/connect-banner.png"
+         usemap="#connectmap"
+         alt="Connect banner: GitHub, LinkedIn, Email"
+         width="600"
+         height="200">
+
+    <map name="connectmap">
+
         <!-- GitHub Box (Left) -->
-             <area shape="rect" coords="20,40,180,160" href="https://github.com/Betelhem-Sefiw" target="_blank" rel="noopener" alt="GitHub">
-        
-            <!-- LinkedIn Circle (Middle) -->
-          <area shape="circle" coords="300,100,70" href="https://www.linkedin.com/in/betelhem-sefiw-b166363a7" target="_blank" rel="noopener" alt="LinkedIn">
-        
+        <area shape="rect"
+              coords="18,44,233,141"
+              href="https://github.com/Betelhem-Sefiw"
+              target="_blank"
+              rel="noopener"
+              alt="GitHub">
+
+        <!-- LinkedIn Circle (Middle) -->
+        <area shape="circle"
+              coords="302,90,52"
+              href="https://www.linkedin.com/in/betelhem-sefiw-b166363a7"
+              target="_blank"
+              rel="noopener"
+              alt="LinkedIn">
+
         <!-- Email Box (Right) -->
-        <area shape="rect" coords="420,40,580,160" href="mailto:betelhemsefiw28@gmail.com" alt="Email">
+        <area shape="rect"
+              coords="372,44,583,141"
+              href="mailto:betelhemsefiw28@gmail.com"
+              alt="Email">
+
     </map>
 
     <hr>
-        <!-- Lab 7: Projects Summary Table -->
+
+    <!-- Lab 7: Projects Summary Table -->
+
     <h2>Projects Summary</h2>
-         <table border="1" cellpadding="8" cellspacing="0">
-         <caption>Project Summary</caption> 
+
+    <table border="1" cellpadding="8" cellspacing="0">
+
+        <caption>Project Summary</caption>
+
         <thead>
             <tr>
                 <th>Project</th>
                 <th>Language</th>
-                 <th>Year</th>
+                <th>Year</th>
                 <th>Link</th>
             </tr>
         </thead>
+
         <tbody>
             <tr>
-                <td>Student Management</td>
-                    <td>Python</td>
-                    <td>2026</td>
-                <td><a href="#student-management">Go to project</a></td>
+                <td>Personal Finance Management</td>
+                <td>C++</td>
+                <td>2026</td>
+                <td>
+                    <a href="#personal-finance-management">Go to project</a>
+                </td>
             </tr>
-            <tr> <!-- ✅ FIXED: Added opening tr here -->
+
+            <tr>
                 <td>Contact Book</td>
-                <td>Python</td>
-                    <td>2026</td>
-                <td><a href="#contact-book">Go to project</a></td>
+                <td>C++</td>
+                <td>2026</td>
+                <td>
+                    <a href="#contact-book">Go to project</a>
+                </td>
             </tr>
         </tbody>
-            <tfoot>
+
+        <tfoot>
             <tr>
                 <th colspan="3">Total projects</th>
                 <th>2</th>
             </tr>
         </tfoot>
+
     </table>
-        <!-- Lab 4 Links -->
-     <h2>Useful Links</h2>
-    <p><a href="https://www.w3.org/" target="_blank" rel="noopener">Official W3C HTML Reference</a></p>
-    <p><a href="index.html#contact">Jump to my Contact info</a></p>
+
+    <!-- Lab 4 Links -->
+
+    <h2>Useful Links</h2>
+
+    <p>
+        <a href="https://validator.w3.org/"
+           target="_blank"
+           rel="noopener">
+           Official W3C HTML Validator
+        </a>
+    </p>
+
+    <p>
+        <a href="index.html#contact">Jump to my Contact info</a>
+    </p>
+
 </body>
 </html>
