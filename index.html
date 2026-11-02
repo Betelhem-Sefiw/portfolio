@@ -278,7 +278,33 @@ int main() {
     </footer>
 
    <script>
-    // Your Turn: Bar chart of skills
+    // ==========================================
+    // PART A: THE LOGO (Blue square + White circle)
+    // ==========================================
+    const canvas = document.getElementById('logo');
+    const ctx = canvas.getContext('2d');
+
+    // 1. Blue square background: x, y, width, height
+    ctx.fillStyle = "#1f5fa8";
+    ctx.fillRect(0, 0, 120, 120);
+
+    // 2. White circle: centre x, centre y, radius, start angle, end angle
+    ctx.beginPath();
+    ctx.arc(60, 60, 45, 0, 2 * Math.PI);
+    ctx.fillStyle = "white";
+    ctx.fill();
+
+    // 3. Initials in the middle
+    ctx.fillStyle = "#1f5fa8";
+    ctx.font = "bold 36px Arial";
+    ctx.textAlign = "center";
+    ctx.textBaseline = "middle";
+    ctx.fillText("BS", 60, 60);
+
+
+    // ==========================================
+    // PART C: THE BAR CHART (HTML, Python, JS)
+    // ==========================================
     const chart = document.getElementById('chart');
     const chartCtx = chart.getContext('2d');
 
@@ -287,19 +313,19 @@ int main() {
     chartCtx.fillRect(20, 100, 120, 30); 
     chartCtx.fillStyle = "black";
     chartCtx.font = "14px Arial";
-    chartCtx.fillText("HTML", 80, 145); // Center text under the 120px bar
+    chartCtx.fillText("HTML", 80, 145); 
 
     // 2. Python bar (70% of 300 = 210 width)
     chartCtx.fillStyle = "#1f5fa8";
-    chartCtx.fillRect(20, 60, 210, 30); // x=20, width=210 (fits perfectly!)
+    chartCtx.fillRect(20, 60, 210, 30); 
     chartCtx.fillStyle = "black";
-    chartCtx.fillText("Python", 125, 145); // Center text under the 210px bar
+    chartCtx.fillText("Python", 125, 145); 
 
     // 3. JavaScript bar (20% of 300 = 60 width)
     chartCtx.fillStyle = "#1f5fa8";
-    chartCtx.fillRect(240, 100, 60, 30); // x=240 keeps it on the right side
+    chartCtx.fillRect(240, 100, 60, 30); 
     chartCtx.fillStyle = "black";
-    chartCtx.fillText("JS", 270, 145); // Center text under the 60px bar
+    chartCtx.fillText("JS", 270, 145); 
 </script>
 </body>
 </html>
