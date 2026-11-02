@@ -109,6 +109,16 @@ developer, HTML">
             </ul>
         </li>
        </ul>
+        <div class="skills">
+            <label for="html">HTML: <output id="html-out">40%</output></label>
+            <input type="range" id="html" min="0" max="100" value="40">
+            
+            <label for="python">Python: <output id="python-out">70%</output></label>
+            <input type="range" id="python" min="0" max="100" value="70">
+            
+            <label for="js">JavaScript: <output id="js-out">20%</output></label>
+            <input type="range" id="js" min="0" max="100" value="20">
+        </div>
     </section>
 
             <!-- Part B: Learning Roadmap (ordered) -->
@@ -206,7 +216,9 @@ int main() {
         <h2>Education</h2>
         <h3>BSc in Software Engineering</h3>
          <p>Addis Ababa Science and Technology University, 2026 – present</p>
-        
+        <label for="degree-progress">Degree progress:</label>
+        <progress id="degree-progress" value="40" max="100">40%</progress>
+        <span id="degree-label">40%</span>
         <!-- Lab 7: Academic Record Table -->
         <p>The following table shows my academic record so far:</p>
         <table border="1" cellpadding="8" cellspacing="0">
@@ -275,7 +287,16 @@ int main() {
 
     <!-- Section 7: Contact -->
     <section id="contact">
+        
         <h2>Contact</h2>
+        <button type="button" onclick="document.getElementById('hireDialog').showModal()">Hire me</button>
+
+        <dialog id="hireDialog">
+            <h2>Available for internships</h2>
+            <p>I am available for internships and freelance web projects from June 2027.</p>
+            <p><a href="mailto:betelhemsefiw28@gmail.com">Send me a message</a> or <a href="files/cv.pdf">download my CV (PDF)</a>.</p>
+            <button type="button" onclick="document.getElementById('hireDialog').close()">Close</button>
+        </dialog>
         <p>I am always open to discussing new projects, creative ideas, or opportunities to be part of your visions. Feel free to reach out to me through the details below:</p>
           <p>Address:<br>Addis Ababa,<br>Ethiopia</p>
 
@@ -299,6 +320,7 @@ int main() {
     <footer>
         <p>Copyright &copy; 2026 Betelhem Sefiw. All rights reserved.</p>
     </footer>
+        
 
 </body>
 </html>

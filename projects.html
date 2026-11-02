@@ -52,20 +52,18 @@
         Your browser does not support the video tag.
     </video>
 
-    <ul>
-        <li>Main features of this project:
-
-            <ol>
-                <li>Add income and expense transactions</li>
-                <li>View all recorded transactions</li>
-                <li>View financial summary (total income, expenses, and balance)</li>
-                <li>Delete transactions</li>
-                <li>Search transactions by category</li>
-                <li>Save transaction records using file handling</li>
-                <li>Exit the application</li>
-            </ol>
-        </li>
-    </ul>
+        <details>
+        <summary>Main features of this project</summary>
+        <ul>
+            <li>Add income and expense transactions</li>
+            <li>View all recorded transactions</li>
+            <li>View financial summary (total income, expenses, and balance)</li>
+            <li>Delete transactions</li>
+            <li>Search transactions by category</li>
+            <li>Save transaction records using file handling</li>
+            <li>Exit the application</li>
+        </ul>
+    </details>
 </article>
 <article>
 
@@ -203,6 +201,8 @@
     <footer>
         <p>Copyright &copy; 2026 Betelhem Sefiw. All rights reserved</p>
     </footer>
-
+        <script>
+        document.querySelectorAll('details').forEach(d => d.open = true);
+    </script>
 </body>
 </html>
